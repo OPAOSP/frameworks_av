@@ -43,7 +43,7 @@ cc_library_shared {
         "libnativewindow",
         "libvndksupport",
     ],
-    
+
     static_libs: [
         "libgui_bufferqueue_static"
     ],
@@ -63,7 +63,7 @@ cc_library_shared {
     ],
 
     product_variables: {
-        gzosp: {
+        opaosp: {
             uses_qcom_bsp_legacy: {
                 cppflags: ["-DQCOM_BSP_LEGACY"],
             },
